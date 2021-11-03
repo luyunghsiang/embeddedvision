@@ -73,7 +73,7 @@ class MNIST_CNN( torch.nn.Module ):
 mnist_images 	= torch.floor( torch.rand(500,1,1,28,28) * 255.0 )
 ### Load model from .pt file
 model = MNIST_CNN()
-model.load_state_dict( torch.load('partially_trained_model.pt') )
+model.load_state_dict( torch.load('partially_trained_model.pt',map_location=torch.device('cpu')) )
 model.eval()
 ### Compute inference time. Compare to Google Colab
 start_time = time.perf_counter_ns()
