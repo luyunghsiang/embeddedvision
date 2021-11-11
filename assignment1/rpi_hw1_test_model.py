@@ -74,7 +74,7 @@ class MNIST_CNN( torch.nn.Module ):
 	return x
 
 ### Create a 'fake' testing dataset of 500 images and compute the inference time
-mnist_images 	= torch.floor( torch.rand(500,1,1,28,28) * 255.0 )
+mnist_images	= torch.floor( torch.rand(500,1,1,28,28) * 255.0 )
 ### Load model from .pt file
 model = MNIST_CNN()
 model.load_state_dict( torch.load('partially_trained_model.pt',map_location=torch.device('cpu')) )
