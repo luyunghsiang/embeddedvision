@@ -7,6 +7,10 @@ An introductory graduate course on efficient computer vision software designed f
 3. Navigate to **File -> Upload Notebook**
 4. Choose the Notebook you want to upload
 
+# Google Colab Useful Information
+1. In Google Colab, code is run in 'cells'. If you want to evaluate your entire homework before you submit, you can navigate to **Runtime -> Run all** on Colab.
+2. For the assignments, ensure you are using a GPU to evaluate your homework. This can be done by navigating to **Runtime -> Change runtime type -> GPU** on Colab.
+
 # How to Submit Homework
 To upload a homework notebook , you can [fill out the following Google Form.](https://docs.google.com/forms/d/e/1FAIpQLSfOs1g36tIq36r_TLhdz5p8T9z__AvyyIkO9asKOo16I9U4vQ/viewform?usp=sf_link)
 **We require you to convert your Google Colab to a PDF.** To do so:
