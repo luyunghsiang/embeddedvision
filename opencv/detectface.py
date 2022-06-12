@@ -11,7 +11,6 @@ imcap = cv2.VideoCapture(0)
 imcap.set(3, 640) # set width as 640
 imcap.set(4, 480) # set height as 480
 
-
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 stop = False
